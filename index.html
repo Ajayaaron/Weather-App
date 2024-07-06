@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherinfo.in</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <main id="main">
+        <section id="screen">
+            <h2>The Weather</h2>
+            <div class="weather-area">
+                <h1 id="temp">-&deg; F</h1>
+                <div id="location">
+                    <h3>City</h3>
+                    <p id="date">0:00:00 AM - Sun Jan 05 07 2024 </p>
+                </div>
+            </div>
+        </section>
+
+        <aside>
+            <div id="search">
+                <input type="text" value="" id="cityName" placeholder="Search Location">
+                <button id="searchBtn"><i class='bx bx-search-alt-2'></i></button>
+            </div>
+            <div id="details">
+                <h2>Weather Details</h2>
+            
+                <p>
+                    <span>Humidity</span>
+                    <span id="humidity">---</span>
+                </p>
+                <p>
+                    <span>Wind</span>
+                    <span id="wind">&nbsp; 
+                        <span id="direction">---</span>
+                    </span>
+                </p>
+                <p>
+                    <span>Pressure</span>
+                    <span id="pressure">---</span>
+                </p>
+            </div>
+        </aside>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
